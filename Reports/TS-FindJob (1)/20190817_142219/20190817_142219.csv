@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-FindJob (1),Firefox 66.0,,,2019-08-17 14:22:21,2019-08-17 14:22:28,7.370s,INCOMPLETE
+,,,,,,,
+Test Cases/TC-Ex_indeed,Firefox 66.0,,,2019-08-17 14:22:21,2019-08-17 14:22:28,7.097s,FAILED
+"openBrowser("""")",Firefox 66.0,,,2019-08-17 14:22:21,2019-08-17 14:22:26,4.476s,PASSED
+"navigateToUrl(""https://th.indeed.com/"")",Firefox 66.0,,,2019-08-17 14:22:26,2019-08-17 14:22:27,0.998s,PASSED
+"setText(findTestObject(""Indeed/what""), ""Automated Test"")",Firefox 66.0,,,2019-08-17 14:22:27,2019-08-17 14:22:27,0.152s,PASSED
+"sendKeys(findTestObject(""Indeed/where""), Keys.chord(CONTROL, ""a"", DELETE))",Firefox 66.0,,,2019-08-17 14:22:27,2019-08-17 14:22:27,0.145s,PASSED
+delay(3),Firefox 66.0,,,2019-08-17 14:22:27,2019-08-17 14:22:27,0.003s,NOT_RUN
+"setText(findTestObject(""Indeed/where""), ""Bangkok"")",Firefox 66.0,,,2019-08-17 14:22:27,2019-08-17 14:22:27,0.072s,PASSED
+"click(findTestObject(""Indeed/findJobs""))",Firefox 66.0,,,2019-08-17 14:22:27,2019-08-17 14:22:28,0.742s,PASSED
+"output = getText(findTestObject(""Indeed/results""))",Firefox 66.0,,,2019-08-17 14:22:28,2019-08-17 14:22:28,0.054s,PASSED
+println(output),Firefox 66.0,,,2019-08-17 14:22:28,2019-08-17 14:22:28,0.005s,PASSED
+"if (verifyMatch(output, "".*113 jobs"", true))",Firefox 66.0,,,2019-08-17 14:22:28,2019-08-17 14:22:28,0.058s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 66.0,,,2019-08-17 14:22:28,2019-08-17 14:22:28,0.000s,PASSED

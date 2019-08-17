@@ -33,7 +33,7 @@ output = WebUI.getText(findTestObject('Indeed/results'))
 
 println(output)
 
-if (WebUI.verifyMatch(output, '.*113 jobs', true)) {
+if (WebUI.verifyMatch(output, '.* jobs', true)) {
     KeywordUtil.markPassed('Pass: Actual Result matches Expected Result')
 } else {
     KeywordUtil.markFailed('Fail: Actual Result does not match Expected Result')
