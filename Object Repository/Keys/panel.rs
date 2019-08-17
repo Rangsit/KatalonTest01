@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>panel</name>
+   <tag></tag>
+   <elementGuidId>426efc6a-cbe2-4fe3-930b-45083ae2c34c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='ctl00_ContentPlaceholder1_ctl00']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_ContentPlaceholder1_ctl00']</value>
+   </webElementProperties>
+</WebElementEntity>
